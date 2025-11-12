@@ -20,19 +20,25 @@ chart.getAxis(Axes['Variable A']).setInterval({ start: 20, end: 60 })
 chart.getAxis(Axes['Variable B']).setInterval({ start: 80, end: 120 })
 chart.getAxis(Axes['Variable C']).setInterval({ start: 0.0, end: 2.5 })
 
-const series1 = chart.addSeries().setName('Sample 1').setData({
+const series1 = chart.addSeries(
+    { automaticColorIndex: 0 }
+).setName('Sample 1').setData({
     'Variable A': 36,
     'Variable B': 100,
     'Variable C': 1.1,
 })
 
-const series2 = chart.addSeries().setName('Sample 2').setData({
+const series2 = chart.addSeries(
+    { automaticColorIndex: 2 }
+).setName('Sample 2').setData({
     'Variable A': 32,
     'Variable B': 115,
     'Variable C': 0.5,
 })
 
-const series3 = chart.addSeries().setName('Sample 3').setData({
+const series3 = chart.addSeries(
+    { automaticColorIndex: 4 }
+).setName('Sample 3').setData({
     'Variable A': 35,
     'Variable B': 82,
     'Variable C': 0.9,

@@ -26,6 +26,8 @@ This example shows how this can be done by styling the Axis line style with a `P
 
 ## API Links
 
+* [Parallel Coordinate Chart]
+* [Paletted Fill]
 
 
 ## Support
@@ -49,4 +51,6 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2025. All rights reserved.
 
 
+[Parallel Coordinate Chart]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/classes/ParallelCoordinateChart.html
+[Paletted Fill]: https://lightningchart.com/js-charts/api-documentation/v8.1.0/classes/PalettedFill.html
 
